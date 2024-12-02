@@ -65,13 +65,6 @@ We welcome contributions from the community to make this project even better! He
 
 ---
 
-### **License Section**
-```markdown
-## 📄 License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the license terms.
-
-
-
 ## 🙌 Acknowledgments
 A big thank you to the following resources and inspirations:
 
