@@ -13,18 +13,40 @@
 
 <body>
      <!-- Navbar -->
-     <header class="navbar">
-          <div class="nav-container">
-               <div class="logo">TheUrbanStore</div>
-               <ul class="nav-links">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="products.html" class="nav-link">Products</a></li>
-                    <li><a href="#" class="nav-link nav-link-primary">Contact</a></li>
-               </ul>
-          </div>
+     <header>
+          <nav class="navbar">
+               <div class="nav__container">
+                    <a href="products.html" class="logo ">TheUrbanStore</a>
+                    <!-- <div class="logo">TheUrbanStore</div> -->
+                    <ul class="nav__links">
+                         <li><a href="index.html" class="nav__link">Home</a></li>
+                         <li><a href="products.html" class="nav__link">Products</a></li>
+                         <li><a href="#" class="nav__link nav__link--primary">Contact</a></li>
+                    </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                         <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop" style="visibility: hidden;">
+                         <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                              <i class="fas fa-times"></i>
+                         </button>
+                         <ul class="menu__links">
+                              <li class="menu__list">
+                                   <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                              </li>
+                              <li class="menu__list">
+                                   <a href="#features" class="menu__link" onclick="closeMenu()">Products</a>
+                              </li>
+                              <li class="menu__list">
+                                   <a class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
      </header>
 
-     <!-- Header Section -->
+
      <main>
           <section class="header">
                <div class="search-container">
@@ -34,7 +56,8 @@
                          <div id="spinner" class="spinner" style="display: none;"></div>
                     </button>
                </div>
-               <div class="para__text">**search function is not currently working, however you can still click purple search icon to browse products.**</div>
+               <div class="para__text">**search function is not currently working, however you can still click purple
+                    search icon to browse products.**</div>
                <div class="header-description">
                     <h1>America's best website to make online purchase</h1>
                     <p>Looking for new Coat? or new Desktop? <br> or new ring for your loved one? we <b
