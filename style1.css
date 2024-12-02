@@ -201,19 +201,14 @@ footer {
      padding: 0 8px;
 }
 
-/* @media(max-width: 756px) {
-     .row {
-          width: 50%;
-     }
-
-     .nav__links {
-          display: none;
-     }
-} */
-
-/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+/* Tablets (768px and below) */
 @media (max-width: 768px) {
-
+     body {
+          margin: 0;
+     }
+     .header-description {
+          padding: 0 24px;
+     }
 
      h1 {
           font-size: 40px;
@@ -227,32 +222,69 @@ footer {
           font-size: 18px;
      }
 
-     .product {
-          width: 50%;
+     .search-container {
+          flex-direction: column;
+          align-items: center;
      }
 
+     .search-bar {
+          width: 80%;
+     }
+
+     .search-button {
+          margin-top: 0.5rem;
+     }
 }
 
-
-/* SMALL PHONES, LARGE SMARTPHONES */
+/* Mobile phones (550px and below) */
 @media (max-width: 550px) {
-     .btn__menu {
-          display: block;
-     }
-
-     .nav__links {
+     .nav-links {
           display: none;
      }
+     
+     .logo {
+          font-size: 25px;
+          margin-top: 30px;
+          margin-left: 4.5rem;
+     }
 
-     .highlight {
+     .search-bar {
+          width: 75%;
+          /* margin-left: 1vh; */
+          justify-content: center;
+          align-items: center;
+          font-size: 1rem;
+          border-radius: 10px;
+
+     }
+
+     .search-bar::placeholder {
+          visibility: hidden;
+     }
+
+     .search-button {
+          width: 80%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0.5rem;
+          border: none;
+          border-radius: 5px;
+          
+     }
+
+     .para__text {
+          width: 90%;
+          margin-left: 2.3vh;
+     }
+
+     .landing-page-img {
+          width: 90%;
+     }
+
+     .footer-list {
+          text-align: center;
           width: 100%;
-     }
-
-     .highlight:not(:last-child) {
-          margin-bottom: 24px;
-     }
-
-     footer {
-          padding: 0px;
      }
 }
