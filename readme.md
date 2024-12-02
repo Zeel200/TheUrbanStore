@@ -65,17 +65,9 @@ We welcome contributions from the community to make this project even better! He
 
 ---
 
-### **License Section**
-```markdown
-## 📄 License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the license terms.
-
-
-
 ## 🙌 Acknowledgments
 A big thank you to the following resources and inspirations:
 
 - 🛍️ **[Fake Store API](https://github.com/keikaavousi/fake-store-api)**: For providing the product data used in this project.
 - 🎨 **[Font Awesome](https://fontawesome.com/)**: For the beautiful icons used throughout the interface.
 - 💻 **Open-Source Community**: For the tools and libraries that made this project possible.
-- 🙏 To everyone who uses and supports this project—thank you!
